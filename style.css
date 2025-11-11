@@ -40,16 +40,6 @@ body {
     font-size: 1rem;
 }
 
-/* Remove arrows from number input (optional) */
-#housing-calculator input[type="number"]::-webkit-outer-spin-button,
-#housing-calculator input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-#housing-calculator input[type="number"] {
-    -moz-appearance: textfield;
-}
-
 #housing-calculator button {
     background-color: #007bff;
     color: white;
